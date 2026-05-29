@@ -1,0 +1,7 @@
+Server:		10.0.2.3
+Address:	10.0.2.3#53
+
+Non-authoritative answer:
+Name:	github.com
+Address: 20.207.73.82
+

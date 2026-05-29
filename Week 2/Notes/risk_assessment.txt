@@ -1,0 +1,13 @@
+Risk Assessment Summary
+
+The target host was scanned using Nmap and Nikto.
+
+Nmap showed that all TCP ports were filtered, reducing direct attack exposure.
+
+Nikto identified several web security weaknesses including:
+- Missing HTTP security headers
+- Directory indexing exposure
+- Potential information disclosure
+- Outdated SimpleHTTP server version
+
+These findings were categorized as Medium risk because they may aid attackers during reconnaissance or increase exposure to web-based attacks.

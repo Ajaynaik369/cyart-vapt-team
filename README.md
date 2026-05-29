@@ -1,29 +1,32 @@
 # Cyart VAPT Team - Week 2
 
-## Topics Covered
-- Vulnerability Scanning
-- Penetration Testing
-- Reconnaissance
-- Exploitation
-- Risk Assessment
-- Reporting
+## Overview
+
+This repository contains practical Vulnerability Assessment and Penetration Testing (VAPT) activities performed in a Kali Linux lab environment.
 
 ## Tools Used
-- Nmap
-- Nikto
-- Metasploit
-- Kali Linux
-- Wireshark
 
-## Folder Structure
+* Nmap
+* Nikto
+* Metasploit Framework
+* WHOIS
+* nslookup
 
-Week 2/
-│
-├── Reports/
-├── Screenshots/
-├── Notes/
-├── Workflow/
-└── Scripts/
+## Activities Performed
+
+* Reconnaissance
+* Vulnerability Scanning
+* Risk Assessment
+* Penetration Testing
+* Reporting
+
+## Repository Structure
+
+* Notes/
+* Reports/
+* Screenshots/
+* Workflow/
 
 ## Author
-Ajay
+
+Ajay Naik

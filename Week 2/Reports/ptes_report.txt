@@ -1,0 +1,26 @@
+PTES REPORT
+
+Planning:
+The penetration test was conducted in a controlled VirtualBox lab environment targeting the host 192.168.56.102. The scope included reconnaissance, vulnerability scanning, and exploitation attempts.
+
+Reconnaissance:
+Initial reconnaissance identified the target IP and active HTTP service using Nmap and ifconfig. Nikto was used to enumerate web vulnerabilities and missing security headers.
+
+Scanning:
+Nmap service scanning was performed to identify open ports and services. Nikto scanning detected outdated server software, directory listing exposure, and insecure HTTP configurations.
+
+Exploitation:
+Metasploit Framework was used to test the vsftpd 2.3.4 backdoor exploit module. The exploit attempt failed because the FTP service was not available on the target host. The failed attempt demonstrated exploit validation and service verification procedures.
+
+Risk Assessment:
+The identified vulnerabilities were categorized using CVSS severity ratings. Missing security headers and outdated software presented medium to high security risks.
+
+Recommendations:
+- Enable security headers
+- Disable directory listing
+- Update server software
+- Restrict unnecessary services
+- Implement firewall filtering
+
+Conclusion:
+The assessment demonstrated the use of industry-standard VAPT methodology including reconnaissance, scanning, validation, exploitation attempts, and reporting.
