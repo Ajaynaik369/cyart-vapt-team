@@ -1,0 +1,24 @@
+Reconnaissance Summary
+
+Target: 192.168.56.102
+
+Tools Used:
+- ifconfig
+- nslookup
+- Nmap
+- Nikto
+
+Activities Performed:
+1. Identified target IP address.
+2. Verified network connectivity.
+3. Performed service enumeration using Nmap.
+4. Conducted web server analysis using Nikto.
+
+Findings:
+- Host reachable on local network.
+- Web service identified.
+- Missing security headers detected.
+- Potential information disclosure identified.
+
+Conclusion:
+The reconnaissance phase successfully identified the target and collected information required for further security assessment.

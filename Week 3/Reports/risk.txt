@@ -1,0 +1,18 @@
+Risk Assessment
+
+High Risk:
+None identified during testing.
+
+Medium Risk:
+- Missing security headers.
+- Directory listing exposure.
+
+Low Risk:
+- Information disclosure.
+
+Recommendations:
+- Implement Content Security Policy (CSP).
+- Disable directory indexing.
+- Configure HTTP security headers.
+- Regularly perform vulnerability assessments.
+
